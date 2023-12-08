@@ -1,6 +1,17 @@
 import Cabecalho from "./components/Cabecalho";
+import Conteudo from "./components/Conteudo";
 import Rodape from "./components/Rodape";
-import Home from "./pages/Home";
-import Jogos from "./pages/Jogos";
-import Livros from "./pages/Livros";
-import Container from "./components/Container";
+
+
+
+function App() {
+    return (
+        <>
+        <Cabecalho />
+        <Conteudo />
+        <Rodape />
+        </>
+    )
+}
+
+export default App;

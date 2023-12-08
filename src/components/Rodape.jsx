@@ -3,3 +3,5 @@ function Rodape() {
         <p>Desafio React aí ó</p>
     )
 }
+
+export default Rodape;

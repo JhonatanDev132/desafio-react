@@ -15,3 +15,5 @@ function  Cabecalho() {
         </header>
     )
 }
+
+export default Cabecalho;
