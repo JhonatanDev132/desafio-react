@@ -1,0 +1,21 @@
+import styled from "styled-components";
+
+function Container({ children }) {
+  return <StyledContainer>{children}</StyledContainer>;
+}
+
+const StyledContainer = styled.main`
+    position: relative;
+    top: 18rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+    
+    width: 80dvw;
+    width: 80vw;
+    background-color: white;
+    
+
+    display: flex;
+`;
+
+export default Container;

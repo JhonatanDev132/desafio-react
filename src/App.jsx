@@ -1,15 +1,16 @@
 import Cabecalho from "./components/Cabecalho";
+import Container from "./components/Container";
 import Conteudo from "./components/Conteudo";
-import Rodape from "./components/Rodape";
-
 
 
 function App() {
     return (
         <>
+        <Container>
+            
         <Cabecalho />
         <Conteudo />
-        <Rodape />
+        </Container>    
         </>
     )
 }
