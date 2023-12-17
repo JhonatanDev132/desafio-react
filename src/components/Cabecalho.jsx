@@ -6,11 +6,11 @@ function  Cabecalho() {
     return (
         <StyledCabecalho>
             <nav>
-                    <a href="">Home</a>
+                    <a href="" className="border-top">Home</a>
                
                     <a href="">Jogos</a>
                 
-                    <a href="">Livros</a>
+                    <a href="" className="border-bottom">Livros</a>
             </nav>  
         </StyledCabecalho>
     )
@@ -38,6 +38,14 @@ const StyledCabecalho = styled.header`
     a:hover, a:focus {
         color: white;
         background: #000;
+    }
+
+    .border-top{
+        border-radius: 15px 0 0 0
+    }
+
+    .border-bottom{
+        border-radius: 0 0 0 15px
     }
 `;
 
