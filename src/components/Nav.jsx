@@ -1,29 +1,30 @@
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
-
-function  Cabecalho() {
+function  Nav() {
 
     return (
-        <StyledCabecalho>
-            <nav>
-                    <a href="" className="border-top">Home</a>
+            <StyledNav>
+                    <NavLink to="/" id="mudarCor" className="border-top">Home</NavLink>
                
-                    <a href="">Jogos</a>
+                    <NavLink to="/jogos" id="mudarCor">Jogos</NavLink>
                 
-                    <a href="" className="border-bottom">Livros</a>
-            </nav>  
-        </StyledCabecalho>
+                    <NavLink to="/livros" id="mudarCor" className="border-bottom">Livros</NavLink>
+            </StyledNav>
     )
 }
 
-const StyledCabecalho = styled.header`
-    nav {
+<script src="js/mudarCorFundo"></script>
+
+
+const StyledNav = styled.nav`
+    
         text-align: center;
         display: flex;
         flex-flow: column;
         background: #1e90ff;
         border-radius: 1rem 0 0 1rem ;
-    }
+    
 
     a{
         padding: 4rem;
@@ -50,4 +51,4 @@ const StyledCabecalho = styled.header`
 `;
 
 
-export default Cabecalho;
+export default Nav;

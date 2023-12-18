@@ -1,5 +1,7 @@
+import ConteudoJogos from "../components/ConteudoJogos";
+
 function Jogos() {
-    return <h2>Jogos</h2>;
+    return <ConteudoJogos />;
 }
 
 export default Jogos;

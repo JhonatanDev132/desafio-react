@@ -9,9 +9,8 @@ const StyledContainer = styled.main`
     top: 18rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 1rem;
-    
-    width: 80dvw;
-    width: 80vw;
+    width: 70dvw;
+    width: 70vw;
     background-color: white;
     
 

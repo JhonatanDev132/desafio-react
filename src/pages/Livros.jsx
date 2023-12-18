@@ -1,5 +1,7 @@
+import ConteudoLivros from "../components/ConteudoLivros";
+
 function Livros() {
-    return <h2>Livros</h2>;
+    return <ConteudoLivros />;
 }
 
 export default Livros;

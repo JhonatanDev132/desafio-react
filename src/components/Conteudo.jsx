@@ -15,6 +15,7 @@ function Conteudo() {
     const StyledConteudo = styled.section`
     padding: 2rem;
     border: 1rem solid black;
+    width: 100%;
     `; 
 
 export default Conteudo;
