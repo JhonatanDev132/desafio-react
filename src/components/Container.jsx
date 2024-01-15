@@ -11,7 +11,7 @@ const StyledContainer = styled.main`
     border-radius: 1rem;
     width: 70dvw;
     width: 70vw;
-    background-color: white;
+
     
 
     display: flex;
