@@ -1,7 +1,7 @@
 import Nav from "./components/Nav";
 
 import Home from "./pages/Home";
-import Jogos from "./pages/Jogos";
+import Animes from "./pages/Animes";
 import Livros from "./pages/Livros";
 import Container from "./components/Container";
 
@@ -17,7 +17,7 @@ function App() {
                 <Nav />
                 <Routes>
                     <Route Component={Home} exact path="/"/>
-                    <Route Component={Jogos} path="/jogos"/>
+                    <Route Component={Animes} path="/animes"/>
                     <Route Component={Livros} path="/livros"/>
                 </Routes>
             </Container>

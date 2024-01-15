@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import espaco2 from "../assets/imagens/espaco2.jpg"
 
 function Conteudo() {
     return (
@@ -16,6 +17,9 @@ function Conteudo() {
     padding: 2rem;
     border: 1rem solid black;
     width: 100%;
+    color: white;
+    background: url(${espaco2});
+    background-size: cover;
     `; 
 
 export default Conteudo;

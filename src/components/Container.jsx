@@ -6,13 +6,11 @@ function Container({ children }) {
 
 const StyledContainer = styled.main`
     position: relative;
-    top: 18rem;
+    top: 15rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 1rem;
     width: 70dvw;
     width: 70vw;
-
-    
 
     display: flex;
 `;
