@@ -2,6 +2,7 @@ import styled from "styled-components";
 import jin_woo from "../assets/imagens/solo-leveling.jpg"
 
 function ConteudoMahwa() {
+    
     return (
         <StyledAnimes>
             <h2>Solo leveling</h2>

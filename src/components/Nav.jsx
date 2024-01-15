@@ -5,16 +5,16 @@ function  Nav() {
 
     return (
             <StyledNav>
-                    <NavLink to="/" id="mudarCor" className="border-top">Home</NavLink>
+                    <NavLink to="/"  className="border-top">Home</NavLink>
                
-                    <NavLink to="/animes" id="mudarCor">Animes</NavLink>
+                    <NavLink to="/animes" >Animes</NavLink>
                 
-                    <NavLink to="/livros" id="mudarCor" className="border-bottom">Livros</NavLink>
+                    <NavLink to="/livros"  className="border-bottom">Livros</NavLink>
             </StyledNav>
     )
 }
 
-<script src="js/mudarCorFundo"></script>
+
 
 
 const StyledNav = styled.nav`
@@ -49,6 +49,7 @@ const StyledNav = styled.nav`
         border-radius: 0 0 0 15px
     }
 `;
+
 
 
 export default Nav;

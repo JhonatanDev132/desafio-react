@@ -21,7 +21,8 @@ function App() {
                     <Route Component={Livros} path="/livros"/>
                 </Routes>
             </Container>
-        </BrowserRouter>    
+        </BrowserRouter>
+        <script src="js/mudarCorFundo"></script>    
         </>
     );
 }
